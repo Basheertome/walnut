@@ -6,4 +6,8 @@
     <priority>0</priority>
   </url>
   
+  <url>
+    <loc>http://c100.co/test/</loc>
+  </url>
+  
 </urlset>
