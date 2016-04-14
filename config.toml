@@ -1,15 +1,28 @@
-baseurl = "http://c100.co/"
+---
 languageCode = "en-us"
+
+baseurl = "http://c100.co/"
 title = "C100"
+
 googleAnalytics = ""
+disqusShortname = "c100"
+
 paginate = 10
 paginatePath = "page"
+
 footnotereturnlinkcontents = "↩"
-disqusShortname = "c100"
+
 [permalinks]
 	post = "/:year/:month/:title/"
+
+pygmentsStyle = "monokai"
+
+[blackfriday]
+	hrefTargetBlank = true
+
 [params]
+	name = "C100"
 	description = "Work in progress"
 	author = "Basheer Tome"
-	name = "C100"
 	bio = "Work in progress"
+---

@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>C100</title>
+    <title></title>
     <link>http://localhost:1313/</link>
-    <description>Recent content on C100</description>
+    <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
     <lastBuildDate>Sat, 20 Jun 2015 14:02:37 +0200</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     
@@ -208,7 +207,7 @@ which you wish to be displayed literally, ex.: `foo`, *bar*, etc.&lt;/p&gt;
 
 &lt;ol&gt;
 &lt;li id=&#34;fn:190c09867523d23ce822c8890edce6ee:1&#34;&gt;Footnote text goes here.
- &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:190c09867523d23ce822c8890edce6ee:1&#34;&gt;↩&lt;/a&gt;&lt;/li&gt;
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:190c09867523d23ce822c8890edce6ee:1&#34;&gt;&lt;sup&gt;[return]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;
 </description>
@@ -216,10 +215,10 @@ which you wish to be displayed literally, ex.: `foo`, *bar*, etc.&lt;/p&gt;
     
     <item>
       <title>(Hu)go Template Primer</title>
-      <link>http://localhost:1313/2014/04/hugo-template-primer/</link>
+      <link>http://localhost:1313/post/goisforlovers/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2014/04/hugo-template-primer/</guid>
+      <guid>http://localhost:1313/post/goisforlovers/</guid>
       <description>
 
 &lt;p&gt;Hugo uses the excellent &lt;a href=&#34;http://golang.org/&amp;gt;&#34;&gt;go&lt;/a&gt; &lt;a href=&#34;http://golang.org/pkg/html/template/&amp;gt;&#34;&gt;html/template&lt;/a&gt; library for
@@ -562,10 +561,10 @@ so, such as in this example:&lt;/p&gt;
     
     <item>
       <title>Getting Started with Hugo</title>
-      <link>http://localhost:1313/2014/04/getting-started-with-hugo/</link>
+      <link>http://localhost:1313/post/hugoisforlovers/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2014/04/getting-started-with-hugo/</guid>
+      <guid>http://localhost:1313/post/hugoisforlovers/</guid>
       <description>
 
 &lt;h2 id=&#34;step-1-install-hugo:c57cc0038c788519b441e0331c8bebc7&#34;&gt;Step 1. Install Hugo&lt;/h2&gt;
@@ -649,10 +648,10 @@ Having nearly instant feedback enables you to have your creativity flow without 
     
     <item>
       <title>Creating a New Theme</title>
-      <link>http://localhost:1313/2014/09/creating-a-new-theme/</link>
+      <link>http://localhost:1313/post/creating-a-new-theme/</link>
       <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2014/09/creating-a-new-theme/</guid>
+      <guid>http://localhost:1313/post/creating-a-new-theme/</guid>
       <description>
 
 &lt;h3 id=&#34;introduction:203afb8fdc074e80a6a8cddc7dc8ce70&#34;&gt;&lt;strong&gt;Introduction&lt;/strong&gt;&lt;/h3&gt;
@@ -1735,10 +1734,10 @@ $ vi themes/zafta/layouts/_default/single.html
     
     <item>
       <title>Migrate to Hugo from Jekyll</title>
-      <link>http://localhost:1313/2014/03/migrate-to-hugo-from-jekyll/</link>
+      <link>http://localhost:1313/post/migrate-from-jekyll/</link>
       <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2014/03/migrate-to-hugo-from-jekyll/</guid>
+      <guid>http://localhost:1313/post/migrate-from-jekyll/</guid>
       <description>
 
 &lt;h2 id=&#34;move-static-content-to-static:964c172ef5e837f03573891408d8d631&#34;&gt;Move static content to &lt;code&gt;static&lt;/code&gt;&lt;/h2&gt;
