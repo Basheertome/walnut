@@ -1,0 +1,316 @@
+    <!DOCTYPE html>
+<html lang="en-us">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="author" content="C100">
+		<meta name="description" content="Work in progress">
+		<meta name="generator" content="Hugo 0.15" />
+		<title>Test &middot; C100</title>
+		<link rel="shortcut icon" href="http://c100.co/images/favicon.ico">
+		<link rel="stylesheet" href="http://c100.co/css/style.css">
+		<link rel="stylesheet" href="http://c100.co/css/highlight.css">
+		<link rel="stylesheet" href="http://c100.co/css/monosocialiconsfont.css">
+		
+	</head>
+
+    <body>
+       <nav class="main-nav">
+	
+	
+		<a href='http://c100.co/'> <span class="arrow">←</span>Home</a>
+	
+
+	
+		<a href='http://c100.co/about'>About</a>
+	
+
+	
+</nav>
+
+        <section id="wrapper">
+            <article class="post">
+                <header>
+                    <h1>Test</h1>
+                    <h2 class="headline">June 20, 2015</h2>
+                </header>
+                <section id="post-body">
+                    
+
+<h1 id="an-h1-header:190c09867523d23ce822c8890edce6ee">An h1 header</h1>
+
+<p>Paragraphs are separated by a blank line.</p>
+
+<p>2nd paragraph. <em>Italic</em>, <strong>bold</strong>, and <code>monospace</code>. Itemized lists
+look like:</p>
+
+<ul>
+<li>this one</li>
+<li>that one</li>
+<li>the other one</li>
+</ul>
+
+<p>Note that &mdash; not considering the asterisk &mdash; the actual text
+content starts at 4-columns in.</p>
+
+<blockquote>
+<p>Block quotes are
+written like so.</p>
+
+<p>They can span multiple paragraphs,
+if you like.</p>
+</blockquote>
+
+<p>Use 3 dashes for an em-dash. Use 2 dashes for ranges (ex., &ldquo;it&rsquo;s all
+in chapters 12&ndash;14&rdquo;). Three dots &hellip; will be converted to an ellipsis.
+Unicode is supported. ☺</p>
+
+<h2 id="an-h2-header:190c09867523d23ce822c8890edce6ee">An h2 header</h2>
+
+<p>Here&rsquo;s a numbered list:</p>
+
+<ol>
+<li>first item</li>
+<li>second item</li>
+<li>third item</li>
+</ol>
+
+<p>Note again how the actual text starts at 4 columns in (4 characters
+from the left side). Here&rsquo;s a code sample:</p>
+
+<pre><code># Let me re-iterate ...
+for i in 1 .. 10 { do-something(i) }
+</code></pre>
+
+<p>As you probably guessed, indented 4 spaces. By the way, instead of
+indenting the block, you can use delimited blocks, if you like:</p>
+
+<pre><code>define foobar() {
+    print &quot;Welcome to flavor country!&quot;;
+}
+</code></pre>
+
+<p>(which makes copying &amp; pasting easier). You can optionally mark the
+delimited block for Pandoc to syntax highlight it:</p>
+
+<pre><code class="language-python">import time
+# Quick, count to ten!
+for i in range(10):
+    # (but not *too* quick)
+    time.sleep(0.5)
+    print i
+</code></pre>
+
+<h3 id="an-h3-header:190c09867523d23ce822c8890edce6ee">An h3 header</h3>
+
+<p>Now a nested list:</p>
+
+<ol>
+<li><p>First, get these ingredients:</p>
+
+<ul>
+<li>carrots</li>
+<li>celery</li>
+<li>lentils</li>
+</ul></li>
+
+<li><p>Boil some water.</p></li>
+
+<li><p>Dump everything in the pot and follow
+this algorithm:</p>
+
+<pre><code>find wooden spoon
+uncover pot
+stir
+cover pot
+balance wooden spoon precariously on pot handle
+wait 10 minutes
+goto first step (or shut off burner when done)
+</code></pre>
+
+<p>Do not bump wooden spoon or it will fall.</p></li>
+</ol>
+
+<p>Notice again how text always lines up on 4-space indents (including
+that last line which continues item 3 above).</p>
+
+<p>Here&rsquo;s a link to <a href="http://foo.bar">a website</a>, to a <a href="local-doc.html">local
+doc</a>, and to a <a href="#an-h2-header">section heading in the current
+doc</a>. Here&rsquo;s a footnote <sup class="footnote-ref" id="fnref:190c09867523d23ce822c8890edce6ee:1"><a rel="footnote" href="#fn:190c09867523d23ce822c8890edce6ee:1">1</a></sup>.</p>
+
+<p>Tables can look like this:</p>
+
+<p>size  material      color</p>
+
+<hr />
+
+<p>9     leather       brown
+10    hemp canvas   natural
+11    glass         transparent</p>
+
+<p>Table: Shoes, their sizes, and what they&rsquo;re made of</p>
+
+<p>(The above is the caption for the table.) Pandoc also supports
+multi-line tables:</p>
+
+<hr />
+
+<p>keyword   text</p>
+
+<hr />
+
+<p>red       Sunsets, apples, and
+          other red or reddish
+          things.</p>
+
+<p>green     Leaves, grass, frogs
+          and other things it&rsquo;s
+          not easy being.</p>
+
+<hr />
+
+<p>A horizontal rule follows.</p>
+
+<hr />
+
+<p>Here&rsquo;s a definition list:</p>
+
+<p>apples
+  : Good for making applesauce.
+oranges
+  : Citrus!
+tomatoes
+  : There&rsquo;s no &ldquo;e&rdquo; in tomatoe.</p>
+
+<p>Again, text is indented 4 spaces. (Put a blank line between each
+term/definition pair to spread things out more.)</p>
+
+<p>Here&rsquo;s a &ldquo;line block&rdquo;:</p>
+
+<p>| Line one
+|   Line too
+| Line tree</p>
+
+<p>and images can be specified like so:</p>
+
+<p><img src="example-image.jpg" alt="example image" title="An exemplary image" /></p>
+
+<p>Inline math equations go in like so: $\omega = d\phi / dt$. Display
+math should get its own line and be put in in double-dollarsigns:</p>
+
+<p>$$I = \int \rho R^{2} dV$$</p>
+
+<p>And note that you can backslash-escape any punctuation characters
+which you wish to be displayed literally, ex.: `foo`, *bar*, etc.</p>
+<div class="footnotes">
+
+<hr />
+
+<ol>
+<li id="fn:190c09867523d23ce822c8890edce6ee:1">Footnote text goes here.
+ <a class="footnote-return" href="#fnref:190c09867523d23ce822c8890edce6ee:1">↩</a></li>
+</ol>
+</div>
+
+                </section>
+            </article>
+            <footer id="post-meta" class="clearfix">
+                
+                        <img class="avatar" src="http://c100.co/images/avatar.png">
+                        <div>
+                            <span class="dark">C100</span>
+                            <span></span>
+                        </div>
+                    
+                <section id="sharing">
+                    <a class="twitter" href="https://twitter.com/intent/tweet?text=http%3a%2f%2fc100.co%2ftest%2f - Test "><span class="icon-twitter"> Tweet</span></a>
+
+<a class="facebook" href="#" onclick="
+    window.open(
+      'https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href),
+      'facebook-share-dialog',
+      'width=626,height=436');
+    return false;"><span class="icon-facebook-rect"> Share</span>
+</a>
+
+                </section>
+            </footer>
+
+            <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'c100';
+    var disqus_identifier = 'http:\/\/c100.co\/test\/';
+    var disqus_title = 'Test';
+    var disqus_url = 'http:\/\/c100.co\/test\/';
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+            <ul id="post-list" class="archive readmore">
+    <h3>Read more</h3>
+    
+    
+        
+   
+    
+        
+        <li>
+            <a href="http://c100.co/test/">Test<aside class="dates">Jun 20</aside></a>
+        </li>
+        
+   
+    
+        
+        <li>
+            <a href="http://c100.co/2014/04/hugo-template-primer/">(Hu)go Template Primer<aside class="dates">Apr 2</aside></a>
+        </li>
+        
+   
+    
+        
+        <li>
+            <a href="http://c100.co/2014/04/getting-started-with-hugo/">Getting Started with Hugo<aside class="dates">Apr 2</aside></a>
+        </li>
+        
+   
+    
+        
+        <li>
+            <a href="http://c100.co/2014/09/creating-a-new-theme/">Creating a New Theme<aside class="dates">Sep 28</aside></a>
+        </li>
+        
+   
+    
+        
+        <li>
+            <a href="http://c100.co/2014/03/migrate-to-hugo-from-jekyll/">Migrate to Hugo from Jekyll<aside class="dates">Mar 10</aside></a>
+        </li>
+        
+   
+</ul>
+            <footer id="footer">
+    
+    <p class="small">
+    
+        © Copyright 2016 C100
+    
+    </p>
+</footer>
+
+        </section>
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="http://c100.co/js/main.js"></script>
+<script src="http://c100.co/js/highlight.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+    </body>
+</html>

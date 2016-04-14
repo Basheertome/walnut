@@ -1,3 +1,16 @@
 baseurl = "http://c100.co/"
 languageCode = "en-us"
 title = "C100"
+theme = "cactus"
+googleAnalytics = ""
+paginate = 10
+paginatePath = "page"
+footnotereturnlinkcontents = "↩"
+disqusShortname = "c100"
+[permalinks]
+	post = "/:year/:month/:title/"
+[params]
+	description = "Work in progress"
+	author = "Basheer Tome"
+	name = "C100"
+	bio = "Work in progress"
