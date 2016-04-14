@@ -1,7 +1,6 @@
 baseurl = "http://c100.co/"
 languageCode = "en-us"
 title = "C100"
-theme = "cactus"
 googleAnalytics = ""
 paginate = 10
 paginatePath = "page"
