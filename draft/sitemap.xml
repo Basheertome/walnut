@@ -2,38 +2,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>http://c100.co/</loc>
     <lastmod>2015-06-20T14:02:37+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>http://c100.co/about/</loc>
     <lastmod>2015-06-20T14:02:37+02:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:1313/test/</loc>
+    <loc>http://c100.co/test/</loc>
     <lastmod>2015-06-20T14:02:37+02:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:1313/post/goisforlovers/</loc>
+    <loc>http://c100.co/2014/04/hugo-template-primer/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:1313/post/hugoisforlovers/</loc>
+    <loc>http://c100.co/2014/04/getting-started-with-hugo/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:1313/post/creating-a-new-theme/</loc>
+    <loc>http://c100.co/2014/09/creating-a-new-theme/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:1313/post/migrate-from-jekyll/</loc>
+    <loc>http://c100.co/2014/03/migrate-to-hugo-from-jekyll/</loc>
     <lastmod>2014-03-10T00:00:00+00:00</lastmod>
   </url>
   

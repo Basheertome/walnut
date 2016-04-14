@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title></title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on </description>
+    <title>C100</title>
+    <link>http://c100.co/</link>
+    <description>Recent content on C100</description>
     <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
     <lastBuildDate>Sat, 20 Jun 2015 14:02:37 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://c100.co/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>About</title>
-      <link>http://localhost:1313/about/</link>
+      <link>http://c100.co/about/</link>
       <pubDate>Sat, 20 Jun 2015 14:02:37 +0200</pubDate>
       
-      <guid>http://localhost:1313/about/</guid>
+      <guid>http://c100.co/about/</guid>
       <description>
 
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa ullam earum dolorum! Sed, perspiciatis.&lt;/p&gt;
@@ -30,10 +31,10 @@
     
     <item>
       <title>Test</title>
-      <link>http://localhost:1313/test/</link>
+      <link>http://c100.co/test/</link>
       <pubDate>Sat, 20 Jun 2015 14:02:37 +0200</pubDate>
       
-      <guid>http://localhost:1313/test/</guid>
+      <guid>http://c100.co/test/</guid>
       <description>
 
 &lt;h1 id=&#34;an-h1-header:190c09867523d23ce822c8890edce6ee&#34;&gt;An h1 header&lt;/h1&gt;
@@ -133,7 +134,7 @@ goto first step (or shut off burner when done)
 &lt;p&gt;Notice again how text always lines up on 4-space indents (including
 that last line which continues item 3 above).&lt;/p&gt;
 
-&lt;p&gt;Here&amp;rsquo;s a link to &lt;a href=&#34;http://foo.bar&#34;&gt;a website&lt;/a&gt;, to a &lt;a href=&#34;local-doc.html&#34;&gt;local
+&lt;p&gt;Here&amp;rsquo;s a link to &lt;a href=&#34;http://foo.bar&#34; target=&#34;_blank&#34;&gt;a website&lt;/a&gt;, to a &lt;a href=&#34;local-doc.html&#34; target=&#34;_blank&#34;&gt;local
 doc&lt;/a&gt;, and to a &lt;a href=&#34;#an-h2-header&#34;&gt;section heading in the current
 doc&lt;/a&gt;. Here&amp;rsquo;s a footnote &lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:190c09867523d23ce822c8890edce6ee:1&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:190c09867523d23ce822c8890edce6ee:1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
 
@@ -207,7 +208,7 @@ which you wish to be displayed literally, ex.: `foo`, *bar*, etc.&lt;/p&gt;
 
 &lt;ol&gt;
 &lt;li id=&#34;fn:190c09867523d23ce822c8890edce6ee:1&#34;&gt;Footnote text goes here.
- &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:190c09867523d23ce822c8890edce6ee:1&#34;&gt;&lt;sup&gt;[return]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:190c09867523d23ce822c8890edce6ee:1&#34;&gt;↩&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;
 </description>
@@ -215,20 +216,20 @@ which you wish to be displayed literally, ex.: `foo`, *bar*, etc.&lt;/p&gt;
     
     <item>
       <title>(Hu)go Template Primer</title>
-      <link>http://localhost:1313/post/goisforlovers/</link>
+      <link>http://c100.co/2014/04/hugo-template-primer/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/goisforlovers/</guid>
+      <guid>http://c100.co/2014/04/hugo-template-primer/</guid>
       <description>
 
-&lt;p&gt;Hugo uses the excellent &lt;a href=&#34;http://golang.org/&amp;gt;&#34;&gt;go&lt;/a&gt; &lt;a href=&#34;http://golang.org/pkg/html/template/&amp;gt;&#34;&gt;html/template&lt;/a&gt; library for
+&lt;p&gt;Hugo uses the excellent &lt;a href=&#34;http://golang.org/&amp;gt;&#34; target=&#34;_blank&#34;&gt;go&lt;/a&gt; &lt;a href=&#34;http://golang.org/pkg/html/template/&amp;gt;&#34; target=&#34;_blank&#34;&gt;html/template&lt;/a&gt; library for
 its template engine. It is an extremely lightweight engine that provides a very
 small amount of logic. In our experience that it is just the right amount of
 logic to be able to create a good static website. If you have used other
 template systems from different languages or frameworks you will find a lot of
 similarities in go templates.&lt;/p&gt;
 
-&lt;p&gt;This document is a brief primer on using go templates. The &lt;a href=&#34;http://golang.org/pkg/html/template/&amp;gt;&#34;&gt;go docs&lt;/a&gt;
+&lt;p&gt;This document is a brief primer on using go templates. The &lt;a href=&#34;http://golang.org/pkg/html/template/&amp;gt;&#34; target=&#34;_blank&#34;&gt;go docs&lt;/a&gt;
 provide more details.&lt;/p&gt;
 
 &lt;h2 id=&#34;introduction-to-go-templates:4d30d99f79bd431d57546bbed04b7347&#34;&gt;Introduction to Go Templates&lt;/h2&gt;
@@ -239,7 +240,7 @@ One consequence of this simplicity is that go templates parse very quickly.&lt;/
 
 &lt;p&gt;A unique characteristic of go templates is they are content aware. Variables and
 content will be sanitized depending on the context of where they are used. More
-details can be found in the &lt;a href=&#34;http://golang.org/pkg/html/template/&amp;gt;&#34;&gt;go docs&lt;/a&gt;.&lt;/p&gt;
+details can be found in the &lt;a href=&#34;http://golang.org/pkg/html/template/&amp;gt;&#34; target=&#34;_blank&#34;&gt;go docs&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h2 id=&#34;basic-syntax:4d30d99f79bd431d57546bbed04b7347&#34;&gt;Basic Syntax&lt;/h2&gt;
 
@@ -277,7 +278,7 @@ functions.&lt;/p&gt;
 &lt;p&gt;Each go template has a struct (object) made available to it. In hugo each
 template is passed either a page or a node struct depending on which type of
 page you are rendering. More details are available on the
-&lt;a href=&#34;http://localhost:1313/layout/variables&#34;&gt;variables&lt;/a&gt; page.&lt;/p&gt;
+&lt;a href=&#34;http://c100.co/layout/variables&#34;&gt;variables&lt;/a&gt; page.&lt;/p&gt;
 
 &lt;p&gt;A variable is accessed by referencing the variable name.&lt;/p&gt;
 
@@ -294,7 +295,7 @@ page you are rendering. More details are available on the
 
 &lt;p&gt;Go template ship with a few functions which provide basic functionality. The go
 template system also provides a mechanism for applications to extend the
-available functions with their own. &lt;a href=&#34;http://localhost:1313/layout/functions&#34;&gt;Hugo template
+available functions with their own. &lt;a href=&#34;http://c100.co/layout/functions&#34;&gt;Hugo template
 functions&lt;/a&gt; provide some additional functionality we believe
 are useful for building websites. Functions are called by using their name
 followed by the required parameters separated by spaces. Template
@@ -482,7 +483,7 @@ you want to inside of your templates.&lt;/p&gt;
 &lt;h2 id=&#34;using-content-page-parameters:4d30d99f79bd431d57546bbed04b7347&#34;&gt;Using Content (page) Parameters&lt;/h2&gt;
 
 &lt;p&gt;In each piece of content you can provide variables to be used by the
-templates. This happens in the &lt;a href=&#34;http://localhost:1313/content/front-matter&#34;&gt;front matter&lt;/a&gt;.&lt;/p&gt;
+templates. This happens in the &lt;a href=&#34;http://c100.co/content/front-matter&#34;&gt;front matter&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;An example of this is used in this documentation site. Most of the pages
 benefit from having the table of contents provided. Sometimes the TOC just
@@ -561,20 +562,20 @@ so, such as in this example:&lt;/p&gt;
     
     <item>
       <title>Getting Started with Hugo</title>
-      <link>http://localhost:1313/post/hugoisforlovers/</link>
+      <link>http://c100.co/2014/04/getting-started-with-hugo/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/hugoisforlovers/</guid>
+      <guid>http://c100.co/2014/04/getting-started-with-hugo/</guid>
       <description>
 
 &lt;h2 id=&#34;step-1-install-hugo:c57cc0038c788519b441e0331c8bebc7&#34;&gt;Step 1. Install Hugo&lt;/h2&gt;
 
-&lt;p&gt;Goto &lt;a href=&#34;https://github.com/spf13/hugo/releases&#34;&gt;hugo releases&lt;/a&gt; and download the
+&lt;p&gt;Goto &lt;a href=&#34;https://github.com/spf13/hugo/releases&#34; target=&#34;_blank&#34;&gt;hugo releases&lt;/a&gt; and download the
 appropriate version for your os and architecture.&lt;/p&gt;
 
 &lt;p&gt;Save it somewhere specific as we will be using it in the next step.&lt;/p&gt;
 
-&lt;p&gt;More complete instructions are available at &lt;a href=&#34;http://localhost:1313/overview/installing/&#34;&gt;installing hugo&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;More complete instructions are available at &lt;a href=&#34;http://c100.co/overview/installing/&#34;&gt;installing hugo&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;step-2-build-the-docs:c57cc0038c788519b441e0331c8bebc7&#34;&gt;Step 2. Build the Docs&lt;/h2&gt;
 
@@ -584,10 +585,10 @@ you are reading right now.&lt;/p&gt;
 &lt;p&gt;Follow the following steps:&lt;/p&gt;
 
 &lt;ol&gt;
-&lt;li&gt;Clone the &lt;a href=&#34;http://github.com/spf13/hugo&#34;&gt;hugo repository&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Clone the &lt;a href=&#34;http://github.com/spf13/hugo&#34; target=&#34;_blank&#34;&gt;hugo repository&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Go into the repo&lt;/li&gt;
 &lt;li&gt;Run hugo in server mode and build the docs&lt;/li&gt;
-&lt;li&gt;Open your browser to &lt;a href=&#34;http://localhost:1313&#34;&gt;http://localhost:1313&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Open your browser to &lt;a href=&#34;http://localhost:1313&#34; target=&#34;_blank&#34;&gt;http://localhost:1313&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;Corresponding pseudo commands:&lt;/p&gt;
@@ -619,7 +620,7 @@ cd hugo
 &amp;gt; Press ctrl+c to stop
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;Open your &lt;a href=&#34;http://vim.spf13.com&#34;&gt;favorite editor&lt;/a&gt; and change one of the source
+&lt;p&gt;Open your &lt;a href=&#34;http://vim.spf13.com&#34; target=&#34;_blank&#34;&gt;favorite editor&lt;/a&gt; and change one of the source
 content pages. How about changing this very file to &lt;em&gt;fix the typo&lt;/em&gt;. How about changing this very file to &lt;em&gt;fix the typo&lt;/em&gt;.&lt;/p&gt;
 
 &lt;p&gt;Content files are found in &lt;code&gt;docs/content/&lt;/code&gt;. Unless otherwise specified, files
@@ -648,10 +649,10 @@ Having nearly instant feedback enables you to have your creativity flow without 
     
     <item>
       <title>Creating a New Theme</title>
-      <link>http://localhost:1313/post/creating-a-new-theme/</link>
+      <link>http://c100.co/2014/09/creating-a-new-theme/</link>
       <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/creating-a-new-theme/</guid>
+      <guid>http://c100.co/2014/09/creating-a-new-theme/</guid>
       <description>
 
 &lt;h3 id=&#34;introduction:203afb8fdc074e80a6a8cddc7dc8ce70&#34;&gt;&lt;strong&gt;Introduction&lt;/strong&gt;&lt;/h3&gt;
@@ -1734,10 +1735,10 @@ $ vi themes/zafta/layouts/_default/single.html
     
     <item>
       <title>Migrate to Hugo from Jekyll</title>
-      <link>http://localhost:1313/post/migrate-from-jekyll/</link>
+      <link>http://c100.co/2014/03/migrate-to-hugo-from-jekyll/</link>
       <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/migrate-from-jekyll/</guid>
+      <guid>http://c100.co/2014/03/migrate-to-hugo-from-jekyll/</guid>
       <description>
 
 &lt;h2 id=&#34;move-static-content-to-static:964c172ef5e837f03573891408d8d631&#34;&gt;Move static content to &lt;code&gt;static&lt;/code&gt;&lt;/h2&gt;
@@ -1762,11 +1763,11 @@ With Jekyll, something that looked like&lt;/p&gt;
 
 &lt;h2 id=&#34;create-your-hugo-configuration-file:964c172ef5e837f03573891408d8d631&#34;&gt;Create your Hugo configuration file&lt;/h2&gt;
 
-&lt;p&gt;Hugo can read your configuration as JSON, YAML or TOML. Hugo supports parameters custom configuration too. Refer to the &lt;a href=&#34;http://localhost:1313/overview/configuration/&#34;&gt;Hugo configuration documentation&lt;/a&gt; for details.&lt;/p&gt;
+&lt;p&gt;Hugo can read your configuration as JSON, YAML or TOML. Hugo supports parameters custom configuration too. Refer to the &lt;a href=&#34;http://c100.co/overview/configuration/&#34;&gt;Hugo configuration documentation&lt;/a&gt; for details.&lt;/p&gt;
 
 &lt;h2 id=&#34;set-your-configuration-publish-folder-to-site:964c172ef5e837f03573891408d8d631&#34;&gt;Set your configuration publish folder to &lt;code&gt;_site&lt;/code&gt;&lt;/h2&gt;
 
-&lt;p&gt;The default is for Jekyll to publish to &lt;code&gt;_site&lt;/code&gt; and for Hugo to publish to &lt;code&gt;public&lt;/code&gt;. If, like me, you have &lt;a href=&#34;http://blog.blindgaenger.net/generate_github_pages_in_a_submodule.html&#34;&gt;&lt;code&gt;_site&lt;/code&gt; mapped to a git submodule on the &lt;code&gt;gh-pages&lt;/code&gt; branch&lt;/a&gt;, you&amp;rsquo;ll want to do one of two alternatives:&lt;/p&gt;
+&lt;p&gt;The default is for Jekyll to publish to &lt;code&gt;_site&lt;/code&gt; and for Hugo to publish to &lt;code&gt;public&lt;/code&gt;. If, like me, you have &lt;a href=&#34;http://blog.blindgaenger.net/generate_github_pages_in_a_submodule.html&#34; target=&#34;_blank&#34;&gt;&lt;code&gt;_site&lt;/code&gt; mapped to a git submodule on the &lt;code&gt;gh-pages&lt;/code&gt; branch&lt;/a&gt;, you&amp;rsquo;ll want to do one of two alternatives:&lt;/p&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;p&gt;Change your submodule to point to map &lt;code&gt;gh-pages&lt;/code&gt; to public instead of &lt;code&gt;_site&lt;/code&gt; (recommended).&lt;/p&gt;
@@ -1788,17 +1789,17 @@ git submodule add -b gh-pages git@github.com:your-username/your-repo.git public
 
 &lt;h2 id=&#34;convert-jekyll-templates-to-hugo-templates:964c172ef5e837f03573891408d8d631&#34;&gt;Convert Jekyll templates to Hugo templates&lt;/h2&gt;
 
-&lt;p&gt;That&amp;rsquo;s the bulk of the work right here. The documentation is your friend. You should refer to &lt;a href=&#34;http://jekyllrb.com/docs/templates/&#34;&gt;Jekyll&amp;rsquo;s template documentation&lt;/a&gt; if you need to refresh your memory on how you built your blog and &lt;a href=&#34;http://localhost:1313/layout/templates/&#34;&gt;Hugo&amp;rsquo;s template&lt;/a&gt; to learn Hugo&amp;rsquo;s way.&lt;/p&gt;
+&lt;p&gt;That&amp;rsquo;s the bulk of the work right here. The documentation is your friend. You should refer to &lt;a href=&#34;http://jekyllrb.com/docs/templates/&#34; target=&#34;_blank&#34;&gt;Jekyll&amp;rsquo;s template documentation&lt;/a&gt; if you need to refresh your memory on how you built your blog and &lt;a href=&#34;http://c100.co/layout/templates/&#34;&gt;Hugo&amp;rsquo;s template&lt;/a&gt; to learn Hugo&amp;rsquo;s way.&lt;/p&gt;
 
-&lt;p&gt;As a single reference data point, converting my templates for &lt;a href=&#34;http://heyitsalex.net/&#34;&gt;heyitsalex.net&lt;/a&gt; took me no more than a few hours.&lt;/p&gt;
+&lt;p&gt;As a single reference data point, converting my templates for &lt;a href=&#34;http://heyitsalex.net/&#34; target=&#34;_blank&#34;&gt;heyitsalex.net&lt;/a&gt; took me no more than a few hours.&lt;/p&gt;
 
 &lt;h2 id=&#34;convert-jekyll-plugins-to-hugo-shortcodes:964c172ef5e837f03573891408d8d631&#34;&gt;Convert Jekyll plugins to Hugo shortcodes&lt;/h2&gt;
 
-&lt;p&gt;Jekyll has &lt;a href=&#34;http://jekyllrb.com/docs/plugins/&#34;&gt;plugins&lt;/a&gt;; Hugo has &lt;a href=&#34;http://localhost:1313/doc/shortcodes/&#34;&gt;shortcodes&lt;/a&gt;. It&amp;rsquo;s fairly trivial to do a port.&lt;/p&gt;
+&lt;p&gt;Jekyll has &lt;a href=&#34;http://jekyllrb.com/docs/plugins/&#34; target=&#34;_blank&#34;&gt;plugins&lt;/a&gt;; Hugo has &lt;a href=&#34;http://c100.co/doc/shortcodes/&#34;&gt;shortcodes&lt;/a&gt;. It&amp;rsquo;s fairly trivial to do a port.&lt;/p&gt;
 
 &lt;h3 id=&#34;implementation:964c172ef5e837f03573891408d8d631&#34;&gt;Implementation&lt;/h3&gt;
 
-&lt;p&gt;As an example, I was using a custom &lt;a href=&#34;https://github.com/alexandre-normand/alexandre-normand/blob/74bb12036a71334fdb7dba84e073382fc06908ec/_plugins/image_tag.rb&#34;&gt;&lt;code&gt;image_tag&lt;/code&gt;&lt;/a&gt; plugin to generate figures with caption when running Jekyll. As I read about shortcodes, I found Hugo had a nice built-in shortcode that does exactly the same thing.&lt;/p&gt;
+&lt;p&gt;As an example, I was using a custom &lt;a href=&#34;https://github.com/alexandre-normand/alexandre-normand/blob/74bb12036a71334fdb7dba84e073382fc06908ec/_plugins/image_tag.rb&#34; target=&#34;_blank&#34;&gt;&lt;code&gt;image_tag&lt;/code&gt;&lt;/a&gt; plugin to generate figures with caption when running Jekyll. As I read about shortcodes, I found Hugo had a nice built-in shortcode that does exactly the same thing.&lt;/p&gt;
 
 &lt;p&gt;Jekyll&amp;rsquo;s plugin:&lt;/p&gt;
 
@@ -1905,7 +1906,7 @@ git submodule add -b gh-pages git@github.com:your-username/your-repo.git public
 
 &lt;h2 id=&#34;a-practical-example-in-a-diff:964c172ef5e837f03573891408d8d631&#34;&gt;A practical example in a diff&lt;/h2&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://heyitsalex.net/&#34;&gt;Hey, it&amp;rsquo;s Alex&lt;/a&gt; was migrated in less than a &lt;em&gt;father-with-kids day&lt;/em&gt; from Jekyll to Hugo. You can see all the changes (and screw-ups) by looking at this &lt;a href=&#34;https://github.com/alexandre-normand/alexandre-normand/compare/869d69435bd2665c3fbf5b5c78d4c22759d7613a...b7f6605b1265e83b4b81495423294208cc74d610&#34;&gt;diff&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://heyitsalex.net/&#34; target=&#34;_blank&#34;&gt;Hey, it&amp;rsquo;s Alex&lt;/a&gt; was migrated in less than a &lt;em&gt;father-with-kids day&lt;/em&gt; from Jekyll to Hugo. You can see all the changes (and screw-ups) by looking at this &lt;a href=&#34;https://github.com/alexandre-normand/alexandre-normand/compare/869d69435bd2665c3fbf5b5c78d4c22759d7613a...b7f6605b1265e83b4b81495423294208cc74d610&#34; target=&#34;_blank&#34;&gt;diff&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     

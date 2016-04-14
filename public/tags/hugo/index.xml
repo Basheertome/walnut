@@ -19,7 +19,7 @@
 
 &lt;h2 id=&#34;step-1-install-hugo:c57cc0038c788519b441e0331c8bebc7&#34;&gt;Step 1. Install Hugo&lt;/h2&gt;
 
-&lt;p&gt;Goto &lt;a href=&#34;https://github.com/spf13/hugo/releases&#34;&gt;hugo releases&lt;/a&gt; and download the
+&lt;p&gt;Goto &lt;a href=&#34;https://github.com/spf13/hugo/releases&#34; target=&#34;_blank&#34;&gt;hugo releases&lt;/a&gt; and download the
 appropriate version for your os and architecture.&lt;/p&gt;
 
 &lt;p&gt;Save it somewhere specific as we will be using it in the next step.&lt;/p&gt;
@@ -34,10 +34,10 @@ you are reading right now.&lt;/p&gt;
 &lt;p&gt;Follow the following steps:&lt;/p&gt;
 
 &lt;ol&gt;
-&lt;li&gt;Clone the &lt;a href=&#34;http://github.com/spf13/hugo&#34;&gt;hugo repository&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Clone the &lt;a href=&#34;http://github.com/spf13/hugo&#34; target=&#34;_blank&#34;&gt;hugo repository&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Go into the repo&lt;/li&gt;
 &lt;li&gt;Run hugo in server mode and build the docs&lt;/li&gt;
-&lt;li&gt;Open your browser to &lt;a href=&#34;http://localhost:1313&#34;&gt;http://localhost:1313&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Open your browser to &lt;a href=&#34;http://localhost:1313&#34; target=&#34;_blank&#34;&gt;http://localhost:1313&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;Corresponding pseudo commands:&lt;/p&gt;
@@ -69,7 +69,7 @@ cd hugo
 &amp;gt; Press ctrl+c to stop
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;Open your &lt;a href=&#34;http://vim.spf13.com&#34;&gt;favorite editor&lt;/a&gt; and change one of the source
+&lt;p&gt;Open your &lt;a href=&#34;http://vim.spf13.com&#34; target=&#34;_blank&#34;&gt;favorite editor&lt;/a&gt; and change one of the source
 content pages. How about changing this very file to &lt;em&gt;fix the typo&lt;/em&gt;. How about changing this very file to &lt;em&gt;fix the typo&lt;/em&gt;.&lt;/p&gt;
 
 &lt;p&gt;Content files are found in &lt;code&gt;docs/content/&lt;/code&gt;. Unless otherwise specified, files
