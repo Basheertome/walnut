@@ -1,9 +1,3 @@
-*~
-*.lock
-*.DS_Store
-*.swp
-*.out
-._*
-.Spotlight-V100
-.Trashes
+_site
 .sass-cache
+.jekyll-metadata

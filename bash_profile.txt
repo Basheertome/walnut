@@ -1,2 +1,0 @@
-alias draft='rm -rf draft; hugo server -Dd draft'	# Hugo server with drafts in draft folder
-alias build='rm -rf public; hugo'	# Hugo build drafts & then into normal public folder, but delete / wipe them first

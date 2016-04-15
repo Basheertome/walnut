@@ -1,0 +1,13 @@
+# Basic settings
+title: C100
+email: your-email@domain.com
+description: "A monthly, online journal on food and the tools we use to make it."
+baseurl: ""
+url: "http://c100.co"
+port: 8888
+twitter_username: basheertome
+github_username:  basheertome
+
+# Build settings
+markdown: kramdown
+permalink: /:categories/:title/
