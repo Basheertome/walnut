@@ -1,13 +1,31 @@
 # Basic settings
 title: C100
-email: your-email@domain.com
-description: "A monthly, online journal on food and the tools we use to make it."
+tagline: "A monthly, online journal on food and the tools we use to make it."
+email: editor@c100.co
+analytics_id: UA-25940549-15
+
+# Network settings
 baseurl: ""
 url: "http://c100.co"
 port: 8888
-twitter_username: basheertome
-github_username:  basheertome
 
 # Build settings
-markdown: kramdown
+paginate: 1
 permalink: /:categories/:title/
+sass:
+  sass_dir: _sass
+  style: :compressed
+
+# Gem settings
+gems:
+  - jekyll-paginate
+  - jekyll-gist
+
+# Front Matter defaults
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      comments: true
