@@ -11,7 +11,10 @@
           <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>
           <small>{{ site.tagline }}</small>
         </h3>
+        <input placeholder="Search&hellip;" type="search" id="search" class="search-input">
       </header>
+
+      <div id="results" class="all-posts results"></div>
 
       <main>
         {{ content }}
@@ -23,6 +26,9 @@
         </small>
       </footer>
     </div>
+
+    <script src="{{ site.baseurl }}/modules/lunr.js/lunr.min.js"></script>
+    <script src="{{ site.baseurl }}/js/search.js"></script>
 
     {% if site.analytics_id %}{% include analytics.html %}{% endif %}
   </body>

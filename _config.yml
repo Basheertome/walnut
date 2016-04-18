@@ -20,6 +20,7 @@ sass:
 gems:
   - jekyll-paginate
   - jekyll-gist
+  - jemoji
 
 # Front Matter defaults
 defaults:
