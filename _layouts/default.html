@@ -7,17 +7,35 @@
 
     <div class="container content">
       <header class="masthead">
+        <ul class="social">
+          <li><a href="http://twitter.com/{{ site.twitter }}/" target="_blank">twitter</a></li>
+          <li><a href="http://www.instagram.com/{{ site.instagram }}/" target="_blank">instagram</a></li>
+          <li><a href="http://www.facebook.com/{{ site.facebook }}/" target="_blank">facebook</a></li>
+          <li><a href="{{ site.baseurl }}/atom.xml">feed</a></li>
+        </ul>
+        <input placeholder="Search&hellip;" type="search" id="search" class="search-input">
+        <ul class="left-navigation">
+          <li><a href="{{ site.baseurl }}/issues/">issues</a></li>
+          <li><a href="{{ site.baseurl }}/about/">about</a></li>
+          <li><a href="{{ site.baseurl }}/newsletter/">newsletter</a></li>
+        </ul>
         <h3 class="masthead-title">
-          <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>
+          <a href="{{ site.baseurl }}/" title="Home">
+            <img src="{{ site.baseurl }}/assets/c100-logo.svg" alt="C100" onerror="this.src={{ site.baseurl }}/assets/c100-logo.png; this.onerror=null;">
+          </a>
           <small>{{ site.tagline }}</small>
         </h3>
-        <input placeholder="Search&hellip;" type="search" id="search" class="search-input">
+        <ul class="right-navigation">
+          <li><a href="{{ site.baseurl }}/features/">features</a></li>
+          <li><a href="{{ site.baseurl }}/found/">found</a></li>
+          <li><a href="{{ site.baseurl }}/lab/">lab</a></li>
+        </ul>
       </header>
 
       <div id="results" class="all-posts results"></div>
 
       <main>
-        {{ content }}
+        {{ content | extlinks }}
       </main>
 
       <footer class="footer">

@@ -1,8 +1,14 @@
 # Basic settings
 title: C100
-tagline: "A monthly, online journal on food and the tools we use to make it."
+tagline: "a kitchen tools journal"
+description: "A monthly, online journal on food and the tools we use to make it."
 email: editor@c100.co
 analytics_id: UA-25940549-15
+
+# Social settings
+twitter: c100journal
+instagram: c100journal
+facebook: c100journal
 
 # Network settings
 baseurl: ""
@@ -30,3 +36,6 @@ defaults:
       type: "posts"
     values:
       comments: true
+
+extlinks:
+  attributes: {target: _blank}

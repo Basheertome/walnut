@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Example content
+issue: August 2016
+category: lab
 ---
 
 

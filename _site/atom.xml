@@ -4,7 +4,7 @@
  <title>C100</title>
  <link href="http://c100.co/atom.xml" rel="self"/>
  <link href="http://c100.co/"/>
- <updated>2016-04-18T08:56:51-07:00</updated>
+ <updated>2016-04-19T09:26:02-07:00</updated>
  <id>http://c100.co</id>
  <author>
    <name></name>
@@ -14,9 +14,9 @@
  
  <entry>
    <title>Introduction</title>
-   <link href="http://c100.co/introduction/"/>
+   <link href="http://c100.co/features/introduction/"/>
    <updated>2016-01-03T00:00:00-08:00</updated>
-   <id>http://c100.co/introduction</id>
+   <id>http://c100.co/features/introduction</id>
    <content type="html">&lt;p&gt;&lt;em&gt;The Strange Case of Dr. Jekyll and Mr. Hyde&lt;/em&gt; tells the story of a lawyer investigating the connection of two persons, Dr. Henry Jekyll and Mr. Edward Hyde. Chief among the novel’s supporting cast is a man by the name of Mr. Poole, Dr. Jekyll’s loyal butler.&lt;/p&gt;
 
 &lt;hr /&gt;
@@ -62,9 +62,9 @@
  
  <entry>
    <title>Example content</title>
-   <link href="http://c100.co/example-content/"/>
+   <link href="http://c100.co/lab/example-content/"/>
    <updated>2016-01-02T00:00:00-08:00</updated>
-   <id>http://c100.co/example-content</id>
+   <id>http://c100.co/lab/example-content</id>
    <content type="html">&lt;div class=&quot;message&quot;&gt;
   Howdy! This is an example blog post that shows several types of HTML content supported in this theme.
 &lt;/div&gt;
@@ -255,9 +255,9 @@
  
  <entry>
    <title>What&#39;s Jekyll?</title>
-   <link href="http://c100.co/whats-jekyll/"/>
+   <link href="http://c100.co/found/whats-jekyll/"/>
    <updated>2016-01-01T00:00:00-08:00</updated>
-   <id>http://c100.co/whats-jekyll</id>
+   <id>http://c100.co/found/whats-jekyll</id>
    <content type="html">&lt;p&gt;&lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes. From &lt;a href=&quot;https://github.com/jekyll/jekyll/blob/master/README.markdown&quot;&gt;the project’s readme&lt;/a&gt;:&lt;/p&gt;
 
 &lt;blockquote&gt;
