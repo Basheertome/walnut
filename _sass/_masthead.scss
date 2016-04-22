@@ -23,3 +23,34 @@
     opacity: .5;
   }
 }
+
+.social {
+  display: inline-block;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.social li {
+  display: inline-block;
+  opacity: 0.25;
+  -webkit-transition: .1s linear opacity;
+  -moz-transition: .1s linear opacity;
+  transition: .1s linear opacity;
+}
+
+.social li:hover {
+  opacity: 1;
+}
+
+.social li:active {
+  position: relative;
+  top: 1px;
+}
+
+.social img {
+  margin: 0;
+  padding: 0 4px;
+  width: auto;
+  height: 16px;
+}
