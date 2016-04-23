@@ -24,33 +24,70 @@
   }
 }
 
+.hair {
+  &:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+
+  img {
+    margin: 0;
+    padding: 0 4px;
+    width: auto;
+    height: 16px;
+  }
+}
+
 .social {
   display: inline-block;
+  float: left;
   list-style: none;
   margin: 0;
   padding: 0;
+
+  li {
+    display: inline-block;
+    opacity: 0.25;
+    -webkit-transition: .1s linear opacity;
+    -moz-transition: .1s linear opacity;
+    transition: .1s linear opacity;
+
+    &:hover {
+      opacity: 1;
+    }
+
+    &:active {
+      position: relative;
+      top: 1px;
+    }
+  }
 }
 
-.social li {
+.search {
   display: inline-block;
+  float: right;
   opacity: 0.25;
   -webkit-transition: .1s linear opacity;
   -moz-transition: .1s linear opacity;
   transition: .1s linear opacity;
-}
 
-.social li:hover {
-  opacity: 1;
-}
+  &:hover, &.searching {
+    opacity: 1;
 
-.social li:active {
-  position: relative;
-  top: 1px;
-}
+    #search {
+      border-bottom-color: rgba(0,0,0,1);
+    }
+  }
 
-.social img {
-  margin: 0;
-  padding: 0 4px;
-  width: auto;
-  height: 16px;
+  img {
+    display: inline-block;
+  }
+
+  #search {
+    background: transparent;
+    border: 0;
+    border-bottom: 3px solid rgba(0,0,0,0.4);
+    outline: none;
+  }
 }

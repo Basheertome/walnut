@@ -50,5 +50,9 @@ $(document).ready(function() {
       var searchitem = '<div class="result"><div class="result-body"><a href="'+store[ref].link+'" class="post-title">'+store[ref].title+'</a><div class="post-date small">'+store[ref].category+' &times; '+store[ref].date+'</div><p>'+store[ref].excerpt+'</p></div>';
       resultdiv.append(searchitem);
     }
-  });
+  }).focus(function () {
+    $(this).parent('div').addClass('searching');
+  }).blur(function () {
+    $(this).parent('div').removeClass('searching');
+  });;
 });
