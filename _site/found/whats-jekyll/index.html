@@ -32,27 +32,43 @@
             <li><a href="http://www.facebook.com/c100journal/" target="_blank"><img src="/assets/facebook.svg" alt="f"></a></li>
             <li><a href="/atom.xml"><img src="/assets/feed.svg" alt="r"></a></li>
           </ul>
-          <div class="search">
+          <div class="search" onclick="$('#search').focus();">
             <img src="/assets/search.svg" alt="&#1F50D;">
-            <input placeholder="Search&hellip;" type="search" id="search" class="search-input">
+            <input type="search" id="search" class="search-input">
           </div>
         </div>
-        <ul class="left-navigation">
-          <li><a href="/issues/">issues</a></li>
-          <li><a href="/about/">about</a></li>
-          <li><a href="/newsletter/">newsletter</a></li>
-        </ul>
-        <h3 class="masthead-title">
-          <a href="/" title="Home">
-            <img src="/assets/c100-logo.svg" alt="C100" onerror="this.src=/assets/c100-logo.png; this.onerror=null;">
-          </a>
-          <small>a kitchen tools journal</small>
-        </h3>
-        <ul class="right-navigation">
-          <li><a href="/features/">features</a></li>
-          <li><a href="/found/">found</a></li>
-          <li><a href="/lab/">lab</a></li>
-        </ul>
+        <div class="head">
+          <h3 class="masthead-title">
+            <a href="/" title="C100">
+              <img src="/assets/c100-logo.svg" alt="C100" onerror="this.src=/assets/c100-logo.png; this.onerror=null;">
+              
+                
+              
+                
+              
+                
+              
+              
+                
+                <img src="/assets/decorations/walnut.png" class="decoration">
+                <img src="/assets/decorations/branch.png" class="decoration">
+              
+            </a>
+            <small>a kitchen tools journal</small>
+          </h3>
+          <div class="navigation">
+            <ul class="left">
+              <li><a href="/issues/">issues</a></li>
+              <li><a href="/about/">about</a></li>
+              <li><a href="/newsletter/">newsletter</a></li>
+            </ul>
+            <ul class="right">
+              <li><a href="/features/">features</a></li>
+              <li><a href="/found/">found</a></li>
+              <li><a href="/lab/">lab</a></li>
+            </ul>
+          </div>
+        </div>
       </header>
 
       <div id="results" class="all-posts results"></div>
@@ -106,7 +122,7 @@
 
       <footer class="footer">
         <small>
-          &copy; <time datetime="2016-04-22T21:34:37-07:00">2016</time>. All rights reserved.
+          &copy; <time datetime="2016-04-25T00:03:41-07:00">2016</time>. All rights reserved.
         </small>
       </footer>
     </div>
