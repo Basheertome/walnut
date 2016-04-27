@@ -77,8 +77,8 @@ $(document).ready(function() {
       resultdiv.append(searchitem);
     }
   }).focus(function () {
-    $(this).parent('div').addClass('searching');
+    $('body').addClass('searching');
   }).blur(function () {
-    $(this).parent('div').removeClass('searching');
+    $('body').removeClass('searching');
   });;
 });

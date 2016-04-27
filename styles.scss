@@ -13,6 +13,7 @@
 @import "posts";
 @import "pagination";
 @import "message";
+@import "search";
 
 @font-face {
   font-family: 'mallory';
@@ -73,5 +74,17 @@
        url('{{ site.baseurl }}/assets/fonts/mallory_bold_regular-webfont.ttf') format('truetype'),
        url('{{ site.baseurl }}/assets/fonts/mallory_bold_regular-webfont.svg#mallory_boldregular') format('svg');
   font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'hoefler-titling';
+  src: url('{{ site.baseurl }}/assets/fonts/HoeflerTitling-HTF-SmRoman.eot');
+  src: url('{{ site.baseurl }}/assets/fonts/HoeflerTitling-HTF-SmRoman.eot?#iefix') format('embedded-opentype'),
+    url('{{ site.baseurl }}/assets/fonts/HoeflerTitling-HTF-SmRoman.woff2') format('woff2'),
+    url('{{ site.baseurl }}/assets/fonts/HoeflerTitling-HTF-SmRoman.woff') format('woff'),
+    url('{{ site.baseurl }}/assets/fonts/HoeflerTitling-HTF-SmRoman.ttf') format('truetype'),
+    url('{{ site.baseurl }}/assets/fonts/HoeflerTitling-HTF-SmRoman.svg#HoeflerTitling-HTF-SmRoman') format('svg');
+  font-weight: normal;
   font-style: normal;
 }

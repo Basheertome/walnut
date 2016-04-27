@@ -188,9 +188,11 @@
 }
 
 .search {
+  position: relative;
   display: inline-block;
   float: right;
   opacity: 0.25;
+  z-index: 100;
   -webkit-transition: .1s linear opacity;
   -moz-transition: .1s linear opacity;
   transition: .1s linear opacity;
@@ -222,16 +224,6 @@
     opacity: 1;
 
     #search {
-      box-shadow: 0 3px rgba(0,0,0,1);
-    }
-  }
-
-  &.searching {
-    opacity: 1;
-
-    #search {
-      width: 200px;
-      background: rgba(255,255,255,0.4);
       box-shadow: 0 3px rgba(0,0,0,1);
     }
   }
