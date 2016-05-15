@@ -6,6 +6,9 @@
 .page,
 .post {
   margin-bottom: 4em;
+  padding: 3em;
+  background: #fff;
+  box-shadow: 0 10px 50px rgba(0,0,0,0.05);
 
   li + li {
     margin-top: .25rem;

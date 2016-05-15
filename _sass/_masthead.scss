@@ -1,7 +1,7 @@
 .masthead {
   padding-top:    1rem;
   padding-bottom: 1rem;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 
 .head {
@@ -101,38 +101,11 @@
         display: block;
         width: 15rem;
         margin: 0 auto;
-        -webkit-filter: drop-shadow(0 0 15px #ececea)drop-shadow(0 0 15px #ececea);
       }
 
       &:active img:first-child {
         position: relative;
         top: 2px;
-      }
-
-      .decoration {
-        position: absolute;
-        top: 0; left: 0;
-        pointer-events: none;
-        z-index: -1;
-        -webkit-transition: .1s linear -webkit-transform;
-
-        &:nth-child(2) {
-          -webkit-transform: scale(0.5)translateY(-4.5rem)translateX(-6rem)rotate(-55deg);
-        }
-
-        &:nth-child(3) {
-          -webkit-transform: scale(0.7)translateY(-0.25rem)translateX(7rem)rotate(5deg);
-        }
-      }
-
-      &:hover {
-        & .decoration:nth-child(2) {
-          -webkit-transform: scale(0.5)translateY(-4.75rem)translateX(-6.25rem)rotate(-60deg);
-        }
-
-        & .decoration:nth-child(3) {
-          -webkit-transform: scale(0.7)translateY(0rem)translateX(7.25rem)rotate(7.5deg);
-        }
       }
     }
 

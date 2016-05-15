@@ -1,14 +1,23 @@
 .results {
-	display: none;
-	position: absolute;
-	top: 0px;
-	width: 100%;
-	min-height: 4rem;
+  display: none;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  min-height: 4rem;
   padding: 1.5rem;
   margin: 0 -1.5rem;
-  background: #fff;
-  box-shadow: 0 3px 10px rgba(0,0,0,0.15);
   z-index: 99;
+
+  & > p::before {
+  	content: '';
+  	display: block;
+  	position: absolute;
+  	top: 0; left: 0;
+  	width: 100%; height: 100%;
+  	background: #fff;
+  	box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+  	z-index: -1;
+  }
 
   .result {
 
