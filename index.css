@@ -90,7 +90,7 @@ a:active {
     src: url("fonts/Metric-Regular.eot?#iefix") format("embedded-opentype"),
         url("fonts/Metric-Regular.woff") format("woff"),
         url("fonts/Metric-Regular.ttf") format("truetype"),
-        url("fonts/Metric-Regular.svg#SpotMono") format("svg");
+        url("fonts/Metric-Regular.svg#Metric-Regular") format("svg");
     font-weight: normal;
     font-style: normal;
 }
