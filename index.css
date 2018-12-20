@@ -84,6 +84,20 @@ a:active {
 	}
 }
 
+@media (prefers-color-scheme: dark) {
+	body {
+		background: #4c3b32;
+	}
+
+	body, h2, a {
+		color: #af9a87;
+	}
+
+	#mark {
+		fill: #68554a;
+	}
+}
+
 @font-face {
     font-family: "Metric";
     src: url("fonts/Metric-Regular.eot");
